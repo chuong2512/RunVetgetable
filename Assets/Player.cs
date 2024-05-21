@@ -50,6 +50,8 @@ public class Player : MonoBehaviour
 
             Animator.SetTrigger(Jump);
 
+            MasterAudioManager.Play2DSfx(AudioConst.Jump);
+            
             NextPoint();
             transform.DOMove(pointMove[_currentPoint].position, 0.5f).SetEase(Ease.OutSine)
                 .OnComplete(() => { _isMoving = false; });

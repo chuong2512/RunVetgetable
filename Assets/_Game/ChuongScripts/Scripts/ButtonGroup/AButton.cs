@@ -22,7 +22,13 @@ namespace ChuongCustom
         private void Start()
         {
             SetListener(OnClickButton);
+            _button.onClick.AddListener(Click);
             OnStart();
+        }
+
+        private void Click()
+        {
+            MasterAudioManager.Play2DSfx(AudioConst.ClickSound);
         }
 
         public void SetListener(UnityAction action)

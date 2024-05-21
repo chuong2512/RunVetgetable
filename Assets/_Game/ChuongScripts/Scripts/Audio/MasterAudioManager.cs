@@ -4,8 +4,8 @@
 
     public static class MasterAudioManager
     {
-        private static float _musicVolume;
-        private static float _sfxVolume;
+        private static float _musicVolume = 1;
+        private static float _sfxVolume = 1;
 
         private static bool _temporarySfxFlag;
 

@@ -32,6 +32,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1623873091032812453}
+  - {fileID: 3307186208484289750}
+  - {fileID: 1824969568362192582}
   m_Father: {fileID: 1623873090888077881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -129,8 +131,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1623873089564560123}
-  - {fileID: 3307186208484289750}
-  - {fileID: 1824969568362192582}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -249,7 +249,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1623873090888077881}
+    m_TransformParent: {fileID: 1623873089564560123}
     m_Modifications:
     - target: {fileID: 293464222886646535, guid: 4a3001b27228395418c7e9289e83800f, type: 3}
       propertyPath: m_Name
@@ -321,7 +321,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 378012269364998591, guid: 4a3001b27228395418c7e9289e83800f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 738
+      value: 56.87744
       objectReference: {fileID: 0}
     - target: {fileID: 378012269364998591, guid: 4a3001b27228395418c7e9289e83800f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -392,7 +392,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1623873090888077881}
+    m_TransformParent: {fileID: 1623873089564560123}
     m_Modifications:
     - target: {fileID: 293464222886646535, guid: 4a3001b27228395418c7e9289e83800f, type: 3}
       propertyPath: m_Name
@@ -464,7 +464,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 378012269364998591, guid: 4a3001b27228395418c7e9289e83800f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 738
+      value: 56.87744
       objectReference: {fileID: 0}
     - target: {fileID: 378012269364998591, guid: 4a3001b27228395418c7e9289e83800f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

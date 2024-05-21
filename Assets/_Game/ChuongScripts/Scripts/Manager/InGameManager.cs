@@ -84,6 +84,8 @@ namespace ChuongCustom
         {
             GameState = State.Lose;
             Manager.ScreenManager.OpenScreen(ScreenType.BeforeLose);
+            MasterAudioManager.Play2DSfx(AudioConst.Die);
+            
             //todo:
         }
 
