@@ -96,10 +96,10 @@ MonoBehaviour:
       Data: vet_run_goi_2
     - Name: price
       Entry: 1
-      Data: 1.99$
+      Data: 3.99$
     - Name: value
       Entry: 3
-      Data: 20
+      Data: 25
     - Name: 
       Entry: 8
       Data: 
