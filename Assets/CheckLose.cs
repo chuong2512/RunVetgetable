@@ -10,12 +10,14 @@ public class CheckLose : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D col)
     {
-        Manager.InGame.BeforeLose();
+        if (col.gameObject.CompareTag("Finish"))
+            Manager.InGame.BeforeLose();
     }
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        Manager.InGame.BeforeLose();
+        if (col.CompareTag("Finish"))
+            Manager.InGame.BeforeLose();
     }
 
     public void HideCol()

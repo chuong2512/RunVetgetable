@@ -507,7 +507,7 @@ GameObject:
   - component: {fileID: 239030378}
   m_Layer: 0
   m_Name: Group 48
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1977,6 +1977,8 @@ MonoBehaviour:
   - {fileID: 1716107336}
   - {fileID: 539884902}
   Animator: {fileID: 239030378}
+  mush: {fileID: 641373369098727754, guid: 0aecd91df2f504a4aabbc1c269780d56, type: 3}
+  tapCount: 0
 --- !u!1001 &5446350908410677780
 PrefabInstance:
   m_ObjectHideFlags: 0
